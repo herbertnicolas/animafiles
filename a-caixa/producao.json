@@ -1,0 +1,378 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "EP001",
+  "film": {
+    "title": "A Caixa",
+    "original_title": "The Box",
+    "year": 2009
+  },
+  "production_method": "generative_image_to_video_no_blender",
+  "status": "planning_complete_assets_pending",
+  "reference": {
+    "file": "A01-referencia.png",
+    "width": 941,
+    "height": 1672,
+    "origin": "user_supplied",
+    "role": "visual_master",
+    "altered": false
+  },
+  "script_words": 167,
+  "timing": {
+    "estimated_wpm": 140,
+    "estimated_total_s": 71.57,
+    "audio_file": null,
+    "requires_audio_alignment_before_video_generation": true
+  },
+  "style_prompt": "Use a imagem de referência anexada como autoridade visual deste episódio. Produza uma única imagem vertical 9:16, sem montagem ou quadros múltiplos, com aparência tridimensional de jogo PS1: geometria angulosa de poucos polígonos, texturas pequenas e pixeladas, materiais foscos e iluminação simples. Preserve a caixa metálica cinza de base aproximadamente quadrada, os parafusos escuros, o botão vermelho cilíndrico largo e sua base preta. Preserve a mesa de madeira marrom, a sala à noite, a luminária de piso com cúpula bege e luz quente, a estante à esquerda e a janela com cortinas rosadas e luz azul da noite. Mantenha a posição física dos elementos, mesmo quando o enquadramento mudar. A mão, quando visível, pertence à mesma pessoa: pele clara de tom quente, manga azul-escura quadriculada. Não transformar em fotorrealismo, desenho 2D, voxel ou 3D moderno liso. Sem texto, legendas, logos ou novas interfaces. O botão sempre está elevado e nunca é tocado ou pressionado. Reserve espaço visual calmo para legendas adicionadas depois.",
+  "anchors": [
+    {
+      "id": "A01",
+      "title": "Aproveitar a imagem enviada",
+      "status": "provided",
+      "action": "reuse",
+      "reference_ids": [],
+      "file": "A01-referencia.png",
+      "prompt_image": null,
+      "description": "Imagem já fornecida pelo usuário: mão suspensa acima do botão, caixa sobre a mesa e sala ao fundo. Usar o arquivo original como primeira âncora. Não regenerar por padrão.",
+      "checks": [
+        "Mão ainda afastada do botão",
+        "Caixa cinza com botão vermelho e base preta",
+        "Sem decisão consumada"
+      ]
+    },
+    {
+      "id": "A02",
+      "title": "O casal diante da proposta",
+      "status": "planned",
+      "action": "generate",
+      "reference_ids": [
+        "A01"
+      ],
+      "file": "ancoras/A02.png",
+      "prompt_image": "Use a imagem de referência anexada como autoridade visual deste episódio. Produza uma única imagem vertical 9:16, sem montagem ou quadros múltiplos, com aparência tridimensional de jogo PS1: geometria angulosa de poucos polígonos, texturas pequenas e pixeladas, materiais foscos e iluminação simples. Preserve a caixa metálica cinza de base aproximadamente quadrada, os parafusos escuros, o botão vermelho cilíndrico largo e sua base preta. Preserve a mesa de madeira marrom, a sala à noite, a luminária de piso com cúpula bege e luz quente, a estante à esquerda e a janela com cortinas rosadas e luz azul da noite. Mantenha a posição física dos elementos, mesmo quando o enquadramento mudar. A mão, quando visível, pertence à mesma pessoa: pele clara de tom quente, manga azul-escura quadriculada. Não transformar em fotorrealismo, desenho 2D, voxel ou 3D moderno liso. Sem texto, legendas, logos ou novas interfaces. O botão sempre está elevado e nunca é tocado ou pressionado. Reserve espaço visual calmo para legendas adicionadas depois.\n\nQUADRO INICIAL: Novo enquadramento mais aberto da mesma mesa, visto de três quartos. Duas pessoas adultas estão sentadas além da caixa. À direita física da mesa, a pessoa da mão original, com camisa azul-escura quadriculada; a outra pessoa usa suéter verde-oliva. Mostrar principalmente ombros, nucas e perfis pouco detalhados, sem semelhança com atores. Ambas olham para a caixa, mãos sobre as próprias pernas, longe do botão. A caixa continua na mesma posição da mesa. Não há dinheiro nesta imagem. A luminária, a janela e a estante mantêm a distribuição da referência. O instante é de atenção e dúvida, sem gestos em curso.",
+      "description": "Novo enquadramento mais aberto da mesma mesa, visto de três quartos. Duas pessoas adultas estão sentadas além da caixa. À direita física da mesa, a pessoa da mão original, com camisa azul-escura quadriculada; a outra pessoa usa suéter verde-oliva. Mostrar principalmente ombros, nucas e perfis pouco detalhados, sem semelhança com atores. Ambas olham para a caixa, mãos sobre as próprias pernas, longe do botão. A caixa continua na mesma posição da mesa. Não há dinheiro nesta imagem. A luminária, a janela e a estante mantêm a distribuição da referência. O instante é de atenção e dúvida, sem gestos em curso.",
+      "checks": [
+        "Exatamente duas pessoas adultas",
+        "Camisa do personagem principal consistente",
+        "Nenhuma mão próxima do botão",
+        "Mesma sala, sem dinheiro"
+      ]
+    },
+    {
+      "id": "A03",
+      "title": "O mecanismo da escolha",
+      "status": "planned",
+      "action": "generate",
+      "reference_ids": [
+        "A01"
+      ],
+      "file": "ancoras/A03.png",
+      "prompt_image": "Use a imagem de referência anexada como autoridade visual deste episódio. Produza uma única imagem vertical 9:16, sem montagem ou quadros múltiplos, com aparência tridimensional de jogo PS1: geometria angulosa de poucos polígonos, texturas pequenas e pixeladas, materiais foscos e iluminação simples. Preserve a caixa metálica cinza de base aproximadamente quadrada, os parafusos escuros, o botão vermelho cilíndrico largo e sua base preta. Preserve a mesa de madeira marrom, a sala à noite, a luminária de piso com cúpula bege e luz quente, a estante à esquerda e a janela com cortinas rosadas e luz azul da noite. Mantenha a posição física dos elementos, mesmo quando o enquadramento mudar. A mão, quando visível, pertence à mesma pessoa: pele clara de tom quente, manga azul-escura quadriculada. Não transformar em fotorrealismo, desenho 2D, voxel ou 3D moderno liso. Sem texto, legendas, logos ou novas interfaces. O botão sempre está elevado e nunca é tocado ou pressionado. Reserve espaço visual calmo para legendas adicionadas depois.\n\nQUADRO INICIAL: Plano próximo e lateral da mesma caixa, com a câmera na altura do tampo. O botão elevado ocupa o centro. À direita entra apenas a ponta do mesmo dedo indicador, parada a uma distância claramente visível de pelo menos uma altura do botão. A manga quadriculada aparece parcialmente. A janela noturna fica no fundo, com texturas simples; não deslocar fisicamente a caixa para obter o enquadramento. Nenhum dinheiro ou personagem adicional. O espaço entre o dedo e o botão deve ser inequívoco.",
+      "description": "Plano próximo e lateral da mesma caixa, com a câmera na altura do tampo. O botão elevado ocupa o centro. À direita entra apenas a ponta do mesmo dedo indicador, parada a uma distância claramente visível de pelo menos uma altura do botão. A manga quadriculada aparece parcialmente. A janela noturna fica no fundo, com texturas simples; não deslocar fisicamente a caixa para obter o enquadramento. Nenhum dinheiro ou personagem adicional. O espaço entre o dedo e o botão deve ser inequívoco.",
+      "checks": [
+        "Dedo separado do botão",
+        "Altura e forma do botão iguais à referência",
+        "Geometria lateral plausível"
+      ]
+    },
+    {
+      "id": "A04",
+      "title": "Benefício e ausência",
+      "status": "planned",
+      "action": "generate",
+      "reference_ids": [
+        "A01"
+      ],
+      "file": "ancoras/A04.png",
+      "prompt_image": "Use a imagem de referência anexada como autoridade visual deste episódio. Produza uma única imagem vertical 9:16, sem montagem ou quadros múltiplos, com aparência tridimensional de jogo PS1: geometria angulosa de poucos polígonos, texturas pequenas e pixeladas, materiais foscos e iluminação simples. Preserve a caixa metálica cinza de base aproximadamente quadrada, os parafusos escuros, o botão vermelho cilíndrico largo e sua base preta. Preserve a mesa de madeira marrom, a sala à noite, a luminária de piso com cúpula bege e luz quente, a estante à esquerda e a janela com cortinas rosadas e luz azul da noite. Mantenha a posição física dos elementos, mesmo quando o enquadramento mudar. A mão, quando visível, pertence à mesma pessoa: pele clara de tom quente, manga azul-escura quadriculada. Não transformar em fotorrealismo, desenho 2D, voxel ou 3D moderno liso. Sem texto, legendas, logos ou novas interfaces. O botão sempre está elevado e nunca é tocado ou pressionado. Reserve espaço visual calmo para legendas adicionadas depois.\n\nQUADRO INICIAL: Composição conceitual no mesmo ambiente, em plano médio: caixa no centro da mesa, três pequenos maços de notas genéricas verde-acinzentadas em primeiro plano à esquerda e a cadeira de madeira vazia visível além da mesa à direita do enquadramento. Manter o layout físico do cômodo e escolher o ângulo que revele a cadeira. Não mostrar pessoas nem mãos. As notas não têm valores, retratos, símbolos ou inscrições legíveis; representam a promessa de dinheiro, não uma entrega literal de um milhão. Luz quente na mesa e luz noturna fria no fundo. Dinheiro e cadeira são uma metáfora editorial, não uma reconstituição de acontecimentos do filme.",
+      "description": "Composição conceitual no mesmo ambiente, em plano médio: caixa no centro da mesa, três pequenos maços de notas genéricas verde-acinzentadas em primeiro plano à esquerda e a cadeira de madeira vazia visível além da mesa à direita do enquadramento. Manter o layout físico do cômodo e escolher o ângulo que revele a cadeira. Não mostrar pessoas nem mãos. As notas não têm valores, retratos, símbolos ou inscrições legíveis; representam a promessa de dinheiro, não uma entrega literal de um milhão. Luz quente na mesa e luz noturna fria no fundo. Dinheiro e cadeira são uma metáfora editorial, não uma reconstituição de acontecimentos do filme.",
+      "checks": [
+        "Três maços simples; não contar dólares",
+        "Cadeira vazia reconhecível",
+        "Sem sugerir que o botão foi acionado"
+      ]
+    },
+    {
+      "id": "A05",
+      "title": "Dinheiro perto, mundo distante",
+      "status": "planned",
+      "action": "generate",
+      "reference_ids": [
+        "A01",
+        "A04"
+      ],
+      "file": "ancoras/A05.png",
+      "prompt_image": "Use a imagem de referência anexada como autoridade visual deste episódio. Produza uma única imagem vertical 9:16, sem montagem ou quadros múltiplos, com aparência tridimensional de jogo PS1: geometria angulosa de poucos polígonos, texturas pequenas e pixeladas, materiais foscos e iluminação simples. Preserve a caixa metálica cinza de base aproximadamente quadrada, os parafusos escuros, o botão vermelho cilíndrico largo e sua base preta. Preserve a mesa de madeira marrom, a sala à noite, a luminária de piso com cúpula bege e luz quente, a estante à esquerda e a janela com cortinas rosadas e luz azul da noite. Mantenha a posição física dos elementos, mesmo quando o enquadramento mudar. A mão, quando visível, pertence à mesma pessoa: pele clara de tom quente, manga azul-escura quadriculada. Não transformar em fotorrealismo, desenho 2D, voxel ou 3D moderno liso. Sem texto, legendas, logos ou novas interfaces. O botão sempre está elevado e nunca é tocado ou pressionado. Reserve espaço visual calmo para legendas adicionadas depois.\n\nQUADRO INICIAL: Aproximar a câmera dos mesmos três maços de notas da imagem A04. Dinheiro em primeiro plano, ocupando a parte inferior esquerda; uma borda da mesma caixa fica visível à direita. No fundo, a janela noturna original mostra apenas céu azul-escuro, lua e silhuetas de árvores. Não colocar uma pessoa na janela nem inserir nova paisagem. Manter todo o conjunto em aparência de texturas pixeladas e perspectiva 3D, sem desfoque fotográfico forte. A sensação vem da diferença de escala entre o dinheiro próximo e o exterior distante.",
+      "description": "Aproximar a câmera dos mesmos três maços de notas da imagem A04. Dinheiro em primeiro plano, ocupando a parte inferior esquerda; uma borda da mesma caixa fica visível à direita. No fundo, a janela noturna original mostra apenas céu azul-escuro, lua e silhuetas de árvores. Não colocar uma pessoa na janela nem inserir nova paisagem. Manter todo o conjunto em aparência de texturas pixeladas e perspectiva 3D, sem desfoque fotográfico forte. A sensação vem da diferença de escala entre o dinheiro próximo e o exterior distante.",
+      "checks": [
+        "Mesmos três maços de A04",
+        "Exterior original sem personagem",
+        "Caixa continua reconhecível"
+      ]
+    },
+    {
+      "id": "A06",
+      "title": "Quem sentiria falta",
+      "status": "planned",
+      "action": "generate",
+      "reference_ids": [
+        "A01"
+      ],
+      "file": "ancoras/A06.png",
+      "prompt_image": "Use a imagem de referência anexada como autoridade visual deste episódio. Produza uma única imagem vertical 9:16, sem montagem ou quadros múltiplos, com aparência tridimensional de jogo PS1: geometria angulosa de poucos polígonos, texturas pequenas e pixeladas, materiais foscos e iluminação simples. Preserve a caixa metálica cinza de base aproximadamente quadrada, os parafusos escuros, o botão vermelho cilíndrico largo e sua base preta. Preserve a mesa de madeira marrom, a sala à noite, a luminária de piso com cúpula bege e luz quente, a estante à esquerda e a janela com cortinas rosadas e luz azul da noite. Mantenha a posição física dos elementos, mesmo quando o enquadramento mudar. A mão, quando visível, pertence à mesma pessoa: pele clara de tom quente, manga azul-escura quadriculada. Não transformar em fotorrealismo, desenho 2D, voxel ou 3D moderno liso. Sem texto, legendas, logos ou novas interfaces. O botão sempre está elevado e nunca é tocado ou pressionado. Reserve espaço visual calmo para legendas adicionadas depois.\n\nQUADRO INICIAL: Enquadrar a cadeira de madeira vazia já presente na imagem original, em plano médio. Mostrar seu assento e encosto, parte da luminária à esquerda e a cortina da janela à direita, respeitando o cômodo de referência. Apenas uma borda da mesa entra em primeiro plano; caixa, mãos e dinheiro ficam fora do enquadramento, não foram removidos do ambiente. Luz quente toca uma parte do assento, o resto fica em sombra azulada. Sem retrato, funeral, sangue ou sinal literal de morte. A cadeira vazia funciona como metáfora de ausência.",
+      "description": "Enquadrar a cadeira de madeira vazia já presente na imagem original, em plano médio. Mostrar seu assento e encosto, parte da luminária à esquerda e a cortina da janela à direita, respeitando o cômodo de referência. Apenas uma borda da mesa entra em primeiro plano; caixa, mãos e dinheiro ficam fora do enquadramento, não foram removidos do ambiente. Luz quente toca uma parte do assento, o resto fica em sombra azulada. Sem retrato, funeral, sangue ou sinal literal de morte. A cadeira vazia funciona como metáfora de ausência.",
+      "checks": [
+        "É a cadeira da referência, não cadeira moderna",
+        "Cômodo ainda identificável",
+        "Ausência simbólica, sem vítima inventada"
+      ]
+    },
+    {
+      "id": "A07",
+      "title": "Encontrar uma desculpa",
+      "status": "planned",
+      "action": "generate",
+      "reference_ids": [
+        "A01"
+      ],
+      "file": "ancoras/A07.png",
+      "prompt_image": "Use a imagem de referência anexada como autoridade visual deste episódio. Produza uma única imagem vertical 9:16, sem montagem ou quadros múltiplos, com aparência tridimensional de jogo PS1: geometria angulosa de poucos polígonos, texturas pequenas e pixeladas, materiais foscos e iluminação simples. Preserve a caixa metálica cinza de base aproximadamente quadrada, os parafusos escuros, o botão vermelho cilíndrico largo e sua base preta. Preserve a mesa de madeira marrom, a sala à noite, a luminária de piso com cúpula bege e luz quente, a estante à esquerda e a janela com cortinas rosadas e luz azul da noite. Mantenha a posição física dos elementos, mesmo quando o enquadramento mudar. A mão, quando visível, pertence à mesma pessoa: pele clara de tom quente, manga azul-escura quadriculada. Não transformar em fotorrealismo, desenho 2D, voxel ou 3D moderno liso. Sem texto, legendas, logos ou novas interfaces. O botão sempre está elevado e nunca é tocado ou pressionado. Reserve espaço visual calmo para legendas adicionadas depois.\n\nQUADRO INICIAL: Plano médio fechado a partir do lado da pessoa com camisa quadriculada. A mesma mão está apoiada na borda da mesa, dedos relaxados e bem afastados da caixa. A caixa fica ao centro do enquadramento, com botão inteiramente visível e elevado. Mostrar só braço, mão e pequena parte do tronco; não incluir rosto. A posição transmite pausa antes de decidir. A mesa e o canto da janela mantêm materiais e cores originais. Não incluir dinheiro neste plano.",
+      "description": "Plano médio fechado a partir do lado da pessoa com camisa quadriculada. A mesma mão está apoiada na borda da mesa, dedos relaxados e bem afastados da caixa. A caixa fica ao centro do enquadramento, com botão inteiramente visível e elevado. Mostrar só braço, mão e pequena parte do tronco; não incluir rosto. A posição transmite pausa antes de decidir. A mesa e o canto da janela mantêm materiais e cores originais. Não incluir dinheiro neste plano.",
+      "checks": [
+        "Mão em repouso na borda, não sobre o botão",
+        "Manga original",
+        "Espaço para aproximar sem contato na animação"
+      ]
+    },
+    {
+      "id": "A08",
+      "title": "O lucro e o que fica fora de vista",
+      "status": "planned",
+      "action": "generate",
+      "reference_ids": [
+        "A01",
+        "A04"
+      ],
+      "file": "ancoras/A08.png",
+      "prompt_image": "Use a imagem de referência anexada como autoridade visual deste episódio. Produza uma única imagem vertical 9:16, sem montagem ou quadros múltiplos, com aparência tridimensional de jogo PS1: geometria angulosa de poucos polígonos, texturas pequenas e pixeladas, materiais foscos e iluminação simples. Preserve a caixa metálica cinza de base aproximadamente quadrada, os parafusos escuros, o botão vermelho cilíndrico largo e sua base preta. Preserve a mesa de madeira marrom, a sala à noite, a luminária de piso com cúpula bege e luz quente, a estante à esquerda e a janela com cortinas rosadas e luz azul da noite. Mantenha a posição física dos elementos, mesmo quando o enquadramento mudar. A mão, quando visível, pertence à mesma pessoa: pele clara de tom quente, manga azul-escura quadriculada. Não transformar em fotorrealismo, desenho 2D, voxel ou 3D moderno liso. Sem texto, legendas, logos ou novas interfaces. O botão sempre está elevado e nunca é tocado ou pressionado. Reserve espaço visual calmo para legendas adicionadas depois.\n\nQUADRO INICIAL: Plano baixo e oblíquo da mesma mesa na composição conceitual de A04. Os mesmos três maços de notas ficam iluminados em primeiro plano. A caixa aparece mais atrás, sem esconder o botão. A cadeira vazia fica parcialmente encoberta pela mesa e pouco iluminada ao fundo. Não adicionar objetos, pessoas, documentos, fábricas ou símbolos políticos. Usar a própria composição para contrapor benefício visível e consequência distante. Materiais e cenário idênticos aos anteriores.",
+      "description": "Plano baixo e oblíquo da mesma mesa na composição conceitual de A04. Os mesmos três maços de notas ficam iluminados em primeiro plano. A caixa aparece mais atrás, sem esconder o botão. A cadeira vazia fica parcialmente encoberta pela mesa e pouco iluminada ao fundo. Não adicionar objetos, pessoas, documentos, fábricas ou símbolos políticos. Usar a própria composição para contrapor benefício visível e consequência distante. Materiais e cenário idênticos aos anteriores.",
+      "checks": [
+        "Notas iguais às de A04",
+        "Cadeira parcialmente escondida por enquadramento",
+        "Nenhum fato adicional atribuído ao filme"
+      ]
+    },
+    {
+      "id": "A09",
+      "title": "Suspense sem resposta",
+      "status": "planned",
+      "action": "generate",
+      "reference_ids": [
+        "A01"
+      ],
+      "file": "ancoras/A09.png",
+      "prompt_image": "Use a imagem de referência anexada como autoridade visual deste episódio. Produza uma única imagem vertical 9:16, sem montagem ou quadros múltiplos, com aparência tridimensional de jogo PS1: geometria angulosa de poucos polígonos, texturas pequenas e pixeladas, materiais foscos e iluminação simples. Preserve a caixa metálica cinza de base aproximadamente quadrada, os parafusos escuros, o botão vermelho cilíndrico largo e sua base preta. Preserve a mesa de madeira marrom, a sala à noite, a luminária de piso com cúpula bege e luz quente, a estante à esquerda e a janela com cortinas rosadas e luz azul da noite. Mantenha a posição física dos elementos, mesmo quando o enquadramento mudar. A mão, quando visível, pertence à mesma pessoa: pele clara de tom quente, manga azul-escura quadriculada. Não transformar em fotorrealismo, desenho 2D, voxel ou 3D moderno liso. Sem texto, legendas, logos ou novas interfaces. O botão sempre está elevado e nunca é tocado ou pressionado. Reserve espaço visual calmo para legendas adicionadas depois.\n\nQUADRO INICIAL: Plano próximo da caixa vista de cima em ângulo oblíquo de aproximadamente 45 graus. O botão vermelho elevado e os parafusos devem ficar claros; mostrar também a face frontal cinza para preservar volume tridimensional. A sombra da mão se projeta no tampo ao lado da caixa, mas a mão e a pessoa ficam fora do enquadramento. O botão não está sob pressão. Sem dinheiro no quadro. Manter a madeira original e a luz quente vinda da luminária. Nenhuma revelação ou mudança na caixa.",
+      "description": "Plano próximo da caixa vista de cima em ângulo oblíquo de aproximadamente 45 graus. O botão vermelho elevado e os parafusos devem ficar claros; mostrar também a face frontal cinza para preservar volume tridimensional. A sombra da mão se projeta no tampo ao lado da caixa, mas a mão e a pessoa ficam fora do enquadramento. O botão não está sob pressão. Sem dinheiro no quadro. Manter a madeira original e a luz quente vinda da luminária. Nenhuma revelação ou mudança na caixa.",
+      "checks": [
+        "Botão não pressionado",
+        "Face frontal e topo coerentes",
+        "Só a sombra; sem mão nova"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "C01",
+      "anchor_id": "A01",
+      "narration": "Você apertaria um botão por um milhão de dólares, sabendo que um desconhecido morreria?",
+      "estimated_start_s": 0,
+      "estimated_duration_s": 6.0,
+      "actual_start_s": null,
+      "actual_end_s": null,
+      "requested_generation_duration_s": 8,
+      "timing_status": "estimate_not_audio_aligned",
+      "visual_role": "illustrative_not_film_reconstruction",
+      "prompt_motion": "Anime a imagem inicial mantendo aparência 3D de PS1, texturas pixeladas, proporções e iluminação. Uma tomada contínua, sem cortes internos. Não criar objetos, personagens, texto ou falas. Não alterar a forma da caixa, do botão ou das mãos. Não tocar nem pressionar o botão. Não gerar narração; ela será adicionada separadamente. Execute apenas o movimento descrito, em ritmo sóbrio.\n\nMOVIMENTO: A câmera avança muito lentamente. A mão já suspensa faz uma pequena aproximação, para com espaço claro acima do botão e fica imóvel. Não completa a escolha.",
+      "video_status": "not_generated",
+      "video_file": null,
+      "requires_end_frame": false,
+      "overlay": null
+    },
+    {
+      "id": "C02",
+      "anchor_id": "A02",
+      "narration": "Em A Caixa, de dois mil e nove, um casal recebe uma proposta:",
+      "estimated_start_s": 6.0,
+      "estimated_duration_s": 5.57,
+      "actual_start_s": null,
+      "actual_end_s": null,
+      "requested_generation_duration_s": 8,
+      "timing_status": "estimate_not_audio_aligned",
+      "visual_role": "illustrative_not_film_reconstruction",
+      "prompt_motion": "Anime a imagem inicial mantendo aparência 3D de PS1, texturas pixeladas, proporções e iluminação. Uma tomada contínua, sem cortes internos. Não criar objetos, personagens, texto ou falas. Não alterar a forma da caixa, do botão ou das mãos. Não tocar nem pressionar o botão. Não gerar narração; ela será adicionada separadamente. Execute apenas o movimento descrito, em ritmo sóbrio.\n\nMOVIMENTO: Câmera quase fixa, com aproximação discreta. As duas pessoas permanecem sentadas, olhando para a caixa, com apenas movimento sutil de respiração. Nenhum gesto de mão ou fala.",
+      "video_status": "not_generated",
+      "video_file": null,
+      "requires_end_frame": false,
+      "overlay": null
+    },
+    {
+      "id": "C03",
+      "anchor_id": "A03",
+      "narration": "apertar o botão de uma caixa e ganhar o dinheiro. Mas alguém que eles não conhecem vai morrer.",
+      "estimated_start_s": 11.57,
+      "estimated_duration_s": 7.71,
+      "actual_start_s": null,
+      "actual_end_s": null,
+      "requested_generation_duration_s": 10,
+      "timing_status": "estimate_not_audio_aligned",
+      "visual_role": "illustrative_not_film_reconstruction",
+      "prompt_motion": "Anime a imagem inicial mantendo aparência 3D de PS1, texturas pixeladas, proporções e iluminação. Uma tomada contínua, sem cortes internos. Não criar objetos, personagens, texto ou falas. Não alterar a forma da caixa, do botão ou das mãos. Não tocar nem pressionar o botão. Não gerar narração; ela será adicionada separadamente. Execute apenas o movimento descrito, em ritmo sóbrio.\n\nMOVIMENTO: A câmera desliza lateralmente poucos centímetros, revelando a espessura do botão. A mão permanece imóvel e afastada. Não mostrar dinheiro ou qualquer consequência.",
+      "video_status": "not_generated",
+      "video_file": null,
+      "requires_end_frame": false,
+      "overlay": null
+    },
+    {
+      "id": "C04",
+      "anchor_id": "A04",
+      "narration": "A oferta parece separar duas coisas que deveriam continuar juntas: o benefício que você recebe e o sofrimento que ele provoca.",
+      "estimated_start_s": 19.28,
+      "estimated_duration_s": 9.0,
+      "actual_start_s": null,
+      "actual_end_s": null,
+      "requested_generation_duration_s": 10,
+      "timing_status": "estimate_not_audio_aligned",
+      "visual_role": "editorial_metaphor",
+      "prompt_motion": "Anime a imagem inicial mantendo aparência 3D de PS1, texturas pixeladas, proporções e iluminação. Uma tomada contínua, sem cortes internos. Não criar objetos, personagens, texto ou falas. Não alterar a forma da caixa, do botão ou das mãos. Não tocar nem pressionar o botão. Não gerar narração; ela será adicionada separadamente. Execute apenas o movimento descrito, em ritmo sóbrio.\n\nMOVIMENTO: A câmera desliza lentamente do lado dos maços para o centro da caixa, conservando a cadeira vazia no fundo. Todos os objetos ficam imóveis. Não fazer notas surgirem ou multiplicarem.",
+      "video_status": "not_generated",
+      "video_file": null,
+      "requires_end_frame": false,
+      "overlay": null
+    },
+    {
+      "id": "C05",
+      "anchor_id": "A05",
+      "narration": "O dinheiro está ali, perto. A vítima está longe.",
+      "estimated_start_s": 28.28,
+      "estimated_duration_s": 3.86,
+      "actual_start_s": null,
+      "actual_end_s": null,
+      "requested_generation_duration_s": 6,
+      "timing_status": "estimate_not_audio_aligned",
+      "visual_role": "editorial_metaphor",
+      "prompt_motion": "Anime a imagem inicial mantendo aparência 3D de PS1, texturas pixeladas, proporções e iluminação. Uma tomada contínua, sem cortes internos. Não criar objetos, personagens, texto ou falas. Não alterar a forma da caixa, do botão ou das mãos. Não tocar nem pressionar o botão. Não gerar narração; ela será adicionada separadamente. Execute apenas o movimento descrito, em ritmo sóbrio.\n\nMOVIMENTO: A câmera sobe e inclina levemente em direção à janela, mantendo parte dos maços na borda inferior. A noite permanece estável e não aparece ninguém do lado de fora.",
+      "video_status": "not_generated",
+      "video_file": null,
+      "requires_end_frame": false,
+      "overlay": null
+    },
+    {
+      "id": "C06",
+      "anchor_id": "A06",
+      "narration": "Você não sabe o nome dela, não vê o rosto e não precisa encarar quem vai sentir sua falta.",
+      "estimated_start_s": 32.14,
+      "estimated_duration_s": 8.14,
+      "actual_start_s": null,
+      "actual_end_s": null,
+      "requested_generation_duration_s": 10,
+      "timing_status": "estimate_not_audio_aligned",
+      "visual_role": "editorial_metaphor",
+      "prompt_motion": "Anime a imagem inicial mantendo aparência 3D de PS1, texturas pixeladas, proporções e iluminação. Uma tomada contínua, sem cortes internos. Não criar objetos, personagens, texto ou falas. Não alterar a forma da caixa, do botão ou das mãos. Não tocar nem pressionar o botão. Não gerar narração; ela será adicionada separadamente. Execute apenas o movimento descrito, em ritmo sóbrio.\n\nMOVIMENTO: A câmera faz uma aproximação curta da cadeira vazia. Cadeira, cortina e luminária ficam estáveis; nenhum personagem entra e nada desaparece.",
+      "video_status": "not_generated",
+      "video_file": null,
+      "requires_end_frame": false,
+      "overlay": null
+    },
+    {
+      "id": "C07",
+      "anchor_id": "A07",
+      "narration": "Será que isso muda o que é certo? Ou só torna mais fácil encontrar uma desculpa?",
+      "estimated_start_s": 40.28,
+      "estimated_duration_s": 6.86,
+      "actual_start_s": null,
+      "actual_end_s": null,
+      "requested_generation_duration_s": 8,
+      "timing_status": "estimate_not_audio_aligned",
+      "visual_role": "illustrative_not_film_reconstruction",
+      "prompt_motion": "Anime a imagem inicial mantendo aparência 3D de PS1, texturas pixeladas, proporções e iluminação. Uma tomada contínua, sem cortes internos. Não criar objetos, personagens, texto ou falas. Não alterar a forma da caixa, do botão ou das mãos. Não tocar nem pressionar o botão. Não gerar narração; ela será adicionada separadamente. Execute apenas o movimento descrito, em ritmo sóbrio.\n\nMOVIMENTO: A mão se afasta lentamente da borda da mesa e volta à posição de repouso, permanecendo sempre longe da caixa. Câmera fixa; movimento pequeno de hesitação, sem gesto em direção ao botão.",
+      "video_status": "not_generated",
+      "video_file": null,
+      "requires_end_frame": false,
+      "overlay": null
+    },
+    {
+      "id": "C08",
+      "anchor_id": "A08",
+      "narration": "A situação também permite pensar em escolhas comuns: quando alguém lucra e o prejuízo fica escondido, quem assume a responsabilidade?",
+      "estimated_start_s": 47.14,
+      "estimated_duration_s": 8.57,
+      "actual_start_s": null,
+      "actual_end_s": null,
+      "requested_generation_duration_s": 10,
+      "timing_status": "estimate_not_audio_aligned",
+      "visual_role": "editorial_metaphor",
+      "prompt_motion": "Anime a imagem inicial mantendo aparência 3D de PS1, texturas pixeladas, proporções e iluminação. Uma tomada contínua, sem cortes internos. Não criar objetos, personagens, texto ou falas. Não alterar a forma da caixa, do botão ou das mãos. Não tocar nem pressionar o botão. Não gerar narração; ela será adicionada separadamente. Execute apenas o movimento descrito, em ritmo sóbrio.\n\nMOVIMENTO: A câmera se desloca lentamente até revelar um pouco mais da cadeira antes parcialmente escondida. Os maços e a caixa não mudam de lugar. A metáfora é criada pelo enquadramento, sem novas ações.",
+      "video_status": "not_generated",
+      "video_file": null,
+      "requires_end_frame": false,
+      "overlay": null
+    },
+    {
+      "id": "C09",
+      "anchor_id": "A09",
+      "narration": "O filme transforma essa pergunta num suspense. Não vou contar a decisão do casal nem suas consequências.",
+      "estimated_start_s": 55.71,
+      "estimated_duration_s": 7.29,
+      "actual_start_s": null,
+      "actual_end_s": null,
+      "requested_generation_duration_s": 8,
+      "timing_status": "estimate_not_audio_aligned",
+      "visual_role": "illustrative_not_film_reconstruction",
+      "prompt_motion": "Anime a imagem inicial mantendo aparência 3D de PS1, texturas pixeladas, proporções e iluminação. Uma tomada contínua, sem cortes internos. Não criar objetos, personagens, texto ou falas. Não alterar a forma da caixa, do botão ou das mãos. Não tocar nem pressionar o botão. Não gerar narração; ela será adicionada separadamente. Execute apenas o movimento descrito, em ritmo sóbrio.\n\nMOVIMENTO: A câmera fica fixa. A sombra da mão desliza discretamente para fora do quadro. O botão permanece elevado e completamente imóvel. Não revelar a escolha.",
+      "video_status": "not_generated",
+      "video_file": null,
+      "requires_end_frame": false,
+      "overlay": null
+    },
+    {
+      "id": "C10",
+      "anchor_id": "A01",
+      "narration": "Procure A Caixa, de dois mil e nove. Antes de assistir, pense: sua resposta mudaria se você conhecesse a vítima?",
+      "estimated_start_s": 63.0,
+      "estimated_duration_s": 8.57,
+      "actual_start_s": null,
+      "actual_end_s": null,
+      "requested_generation_duration_s": 10,
+      "timing_status": "estimate_not_audio_aligned",
+      "visual_role": "illustrative_not_film_reconstruction",
+      "prompt_motion": "Anime a imagem inicial mantendo aparência 3D de PS1, texturas pixeladas, proporções e iluminação. Uma tomada contínua, sem cortes internos. Não criar objetos, personagens, texto ou falas. Não alterar a forma da caixa, do botão ou das mãos. Não tocar nem pressionar o botão. Não gerar narração; ela será adicionada separadamente. Execute apenas o movimento descrito, em ritmo sóbrio.\n\nMOVIMENTO: A partir da mesma imagem da abertura, a mão recua devagar para o canto superior direito, afastando-se do botão, enquanto a câmera se afasta levemente. Terminar com a caixa visível, sem pressionar o botão e sem concluir o destino dos personagens. Não inserir texto: título e ano serão adicionados na edição.",
+      "video_status": "not_generated",
+      "video_file": null,
+      "requires_end_frame": false,
+      "overlay": "A Caixa (The Box) • 2009"
+    }
+  ],
+  "generation_order": [
+    "A02",
+    "A03",
+    "A04",
+    "A05",
+    "A06",
+    "A07",
+    "A08",
+    "A09"
+  ],
+  "automation": {
+    "implemented": false,
+    "artifact_type": "provider_neutral_manifest_not_n8n_workflow",
+    "create_missing_only": true,
+    "full_prompts_embedded": true,
+    "require_actual_audio_timing": true,
+    "image_attempt_limit_per_anchor": 2,
+    "video_attempt_limit_per_scene": 2,
+    "spending_limit_set": false,
+    "on_exhausted_attempts": "mark_needs_review_and_stop_retrying",
+    "scene_approval_mode": "agent_visual_review",
+    "never_publish_automatically": true
+  }
+}
